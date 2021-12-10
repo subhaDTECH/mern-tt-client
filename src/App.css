@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main_div{
+  background-color:#fff;
 }
+html{
+  font-size: 62.5%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center_div{
+  display: grid;
+  place-items: center;
+   padding-top: 20rem;
+   
+}
+.errormsg{
+  font-size: 10rem;
+}
+.center_box{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  /* background-colorgb(14, 9, 9)fff; */
+  width: 50vw;
+  height: 50vh;
+  margin-top: 10rem;
+  min-width: 20rem;
+  min-height: 20rem;
+  
 }
 
-.App-link {
-  color: #61dafb;
+li,a{
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.navbar-brand{
+  font-size: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main_name{
+  font-size: 4rem;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-weight: 700;
+}
+label{
+  font-size: 2rem;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+input{
+  padding: 0.5rem 1rem !important;
+  font-size: 1.5rem !important;
+  
+
+}
+
+.mybtn{
+  font-size: 2rem;
+  font-weight: 300;
+}
+.contact_hrading{
+  font-size: 2rem;
+}
+.codechef_contact_hd{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.contact_para{
+  font-size: 2rem;
+}
+.myimg{
+  height: 20rem;
+   width: 20rem;
+   /* border-radius: 50%; */
+}
+.title_name{
+  font-size: 2.2rem;
+  color:#130f40;
+}
+.myinfo p{
+  font-size: 1.8rem;
+}
+.work_info{
+  font-size: 1.8rem;
+}
+.login_img{
+  width: 20rem;
+  height: 30rem;
+}
+
+.msg{
+  font-size: 15px;
 }
